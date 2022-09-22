@@ -1,0 +1,16 @@
+{
+    "baseUrl": ".",
+    "compilerOptions": {
+      "strict": true,
+      "skipLibCheck": true,
+      "noEmit": true,
+      "types": [
+        "cypress"
+      ],
+      "esModuleInterop": true
+    },
+    "include": ["./**/*.ts"],
+    "exclude": [
+      "node_modules"
+    ]
+}
