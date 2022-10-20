@@ -10,7 +10,7 @@
   "author": "Applitools Support",
   "license": "Apache License 2.0",
   "dependencies": {
-    "@applitools/eyes-cypress": "^3.27.1",
+    "@applitools/eyes-cypress": "^3.27.4",
     "cypress": "^10.3.1"
   },
   "devDependencies": {

@@ -13,10 +13,11 @@ module.exports = {
     // If you don't explicitly set the API key here,
     // then the SDK will automatically read the `APPLITOOLS_API_KEY` environment variable to fetch it.
     apiKey: 'APPLITOOLS_API_KEY',
+    dontCloseBatches: true,
     
     // A batch is the collection of visual checkpoints for a test suite.
     // Batches are displayed in the dashboard, so use meaningful names.
-    batchName: 'Example: Cypress 10 in JavaScript with the Ultrafast Grid',
+    batchName: 'typescript config test',
 
     // Applitools can run checkpoints for snapshots against any browser in the Ultrafast Grid.
     // This setting defines 5 unique browser configurations to test.
